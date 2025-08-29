@@ -1,17 +1,14 @@
 buildscript {
     repositories {
-        jcenter()
         google()
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.3'
-        classpath 'com.dicedmelon.gradle:jacoco-android:0.1.4'
     }
 }
 
 allprojects {
     repositories {
-        jcenter()
         google()
     }
 }
